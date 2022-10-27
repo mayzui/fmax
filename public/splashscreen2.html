@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>loading</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background: #213547;
+            height:100vh ;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "JetBrains Mono Thin",SansSerif;
+        }
+
+        .loading {
+            height: 200px;
+            width: 200px;
+            box-sizing: border-box;
+            border-radius: 50%;
+            border-top: 10px solid #e74c3c;
+            position: relative;
+            animation: a1 3500ms linear infinite;
+        }
+
+        .loading::before,.loading::after {
+            content: '';
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: -10px;
+            left: 0;
+            box-sizing: border-box;
+            border-radius: 50%;
+        }
+
+        .loading::before {
+            border-top: 10px solid #e67e22;
+            transform: rotate(120deg);
+        }
+
+        .loading::after {
+            border-top: 10px solid #3498de;
+            transform: rotate(240deg);
+        }
+
+        .loading span {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            color: white;
+            text-align: center;
+            line-height: 300px;
+            border-radius: revert;
+            animation: a2 3500ms linear infinite;
+        }
+
+        @keyframes a1 {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes a2 {
+            to {
+                transform: rotate(-360deg);
+            }
+        }
+
+    </style>
+</head>
+<body >
+<div class="loading">
+    <span> < (o)_M_(o) > </span>
+</div>
+</body>
+</html>
