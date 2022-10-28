@@ -5,18 +5,23 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "rsw build && tsc && vite build",
     "preview": "vite preview",
     "tauri": "tauri",
-    "td": "yarn tauri dev"
+    "td": "yarn tauri dev",
+    "rsw": "rsw",
+    "updater": "node scripts/updater.mjs",
+    "release": "node scripts/release.mjs"
   },
   "dependencies": {
     "@tauri-apps/api": "^1.0.2",
     "vue": "^3.2.37"
   },
   "devDependencies": {
+    "@actions/github": "^5.1.1",
     "@tauri-apps/cli": "^1.0.5",
     "@vitejs/plugin-vue": "^3.0.3",
+    "node-fetch": "^3.2.10",
     "vite": "^3.0.7"
   }
 }
