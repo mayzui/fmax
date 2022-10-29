@@ -9,6 +9,7 @@ export default function updatelog(tag, type = 'updater') {
     const reTag = /## v[\d\.]+/;
 
     const file = path.join(process.cwd(), UPDATE_LOG);
+    console.log(file)
 
     if (!fs.existsSync(file)) {
         console.log('Could not found UPDATE_LOG.md');
