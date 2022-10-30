@@ -35,7 +35,7 @@ const initProcess = async ()=>{
 const getWeather = async ()=>{
   const response = await fetch('https://v0.yiketianqi.com/api?unescape=1&version=v91&appid=43656176&appsecret=I42og6Lm&ext=&cityid=&city=%E9%87%8D%E5%BA%86', {
     method: 'GET',
-    timeout: 30,
+    timeout: 3000,
   }).then((res)=>{
     console.log(res)
   });

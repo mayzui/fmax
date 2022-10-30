@@ -5,7 +5,7 @@ description = "FMax"
 authors = ["mayzui"]
 license = ""
 repository = ""
-default-run = "app"
+default-run = "fmax"
 edition = "2021"
 rust-version = "1.57"
 

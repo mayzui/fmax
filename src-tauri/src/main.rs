@@ -23,7 +23,7 @@ fn init_process(window: Window) {
              message: "全局事件!".into()
             }
        ).unwrap();
-      thread::sleep(time::Duration::from_millis(500));
+      thread::sleep(time::Duration::from_millis(5000));
     }
   });
 }

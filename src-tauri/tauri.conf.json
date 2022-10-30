@@ -79,7 +79,7 @@
        {
          "label": "beforeMain",
          "title": "开屏界面配置title",
-         "fullscreen": true,
+         "fullscreen": false,
          "decorations": false,
          "url": "splashscreen.html",
          "center": true,
