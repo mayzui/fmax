@@ -23,7 +23,7 @@ async function release() {
     } else if (flag === 'patch') {  // 补丁版本
         c += 1;
     } else {
-        console.log(`Invalid flag "${flag}"`);
+        console.log(`无效的命令行参数: "${flag}" 主版本/次版本/补丁对应的参数是: major / minor / patch `);
         process.exit(1);
     }
 

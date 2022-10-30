@@ -7,8 +7,8 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "fmax",
-    "version": "0.0.2"
+    "productName": "FMax",
+    "version": "0.0.3"
   },
   "tauri": {
     "allowlist": {
@@ -40,17 +40,10 @@
         "icons/icon.ico"
       ],
       "identifier": "com.tauri.build",
-      "longDescription": "",
-      "macOS": {
-        "entitlements": null,
-        "exceptionDomain": "",
-        "frameworks": [],
-        "providerShortName": null,
-        "signingIdentity": null
-      },
+      "longDescription": "长长的描述",
       "resources": ["./images"],
-      "shortDescription": "",
-      "targets": "all",
+      "shortDescription": "剪短的描述一下问题",
+      "targets": "msi",
       "windows": {
         "webviewInstallMode": {
           "type": "embedBootstrapper"
@@ -66,7 +59,7 @@
     "updater": {
       "active": true,
       "endpoints": [
-        "https://releases.myapp.com/{{target}}/{{current_version}}"
+        "https://github.com/mayzui/fmax/blob/main/fmax.update.json"
       ],
       "dialog": true,
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDM5QkQ5QzQyOUE5Mjc4MDEKUldRQmVKS2FRcHk5T2ZseVExOXRFckU3NmFnbzNoQWpjdElSbjFVdURyTmVmbnNmMlNMeDRDY0kK"

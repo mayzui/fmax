@@ -9,7 +9,6 @@ export default function updatelog(tag, type = 'updater') {
     const reTag = /## v[\d\.]+/;
 
     const file = path.join(process.cwd(), UPDATE_LOG);
-    console.log(file)
 
     if (!fs.existsSync(file)) {
         console.log('Could not found UPDATE_LOG.md');
@@ -19,6 +18,7 @@ export default function updatelog(tag, type = 'updater') {
     let _tag;
     const tagMap = {};
     const content = fs.readFileSync(file, { encoding: 'utf8' }).split('\n');
+
 
     content.forEach((line, index) => {
         if (reTag.test(line)) {
