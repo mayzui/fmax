@@ -1,0 +1,35 @@
+{
+  "version": "v17.0.0",
+  "notes": "- feat: 工作流能正常运行了",
+  "pub_date": "2022-11-06T13:09:04.439Z",
+  "platforms": {
+    "win64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQmVKS2FRcHk5T1dyZlhVWlZndXJac3dMVWdtUXh2eVNXaWdMemw2S0llQ1grUjRvR3ZrYSs3YmZzbkh5MTd1UDEvR205WlJGaXAzTVlSZE11UGY4T1NoOEk0S3BXT3dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjY3NzQwMTEzCWZpbGU6Rk1heF8xNy4wLjBfeDY0X2VuLVVTLm1zaS56aXAKUGFNY1czR0xQVjhMYXBYUERsL2tjR1pKK2JqWG5DRzc4ZllxTER2NktObnk5aUNJYmV2YTBsKzFZK1FQd284THJmMnFWc2EvWE43ZXdRRWlnTkI2Q3c9PQo=",
+      "url": "https://github.com/mayzui/fmax/releases/download/v17.0.0/FMax_17.0.0_x64_en-US.msi.zip"
+    },
+    "linux": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQmVKS2FRcHk5T2MrNUp6QVBVOFEvQjNmdUJ5TUp3YkV5d0w4TzhleVpad0pBb1FLTldTQjdKZU1oMkRObGEwRXUzRlo1WWFudThmbXRqQml3VGpGbk1IRXFTZ21wTndnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjY3NzQwMDEwCWZpbGU6Zi1tYXhfMTcuMC4wX2FtZDY0LkFwcEltYWdlLnRhci5negpUY3o1ci9WblZSRjZkMGR4bjBReUc0R2lsYU9iU3lzS01vZ2hxazE5MWVmeUNEc0F5NldMS3RsQVcxKzkzNmcrRmNUNnVsNHhnL2hnUGNndkZJOXlCdz09Cg==",
+      "url": "https://github.com/mayzui/fmax/releases/download/v17.0.0/f-max_17.0.0_amd64.AppImage.tar.gz"
+    },
+    "darwin": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQmVKS2FRcHk5T1doWmttekRZdTVRNlYvK085SmVoOHVrYjhMeVBHcGUxZTAraDJyWHBjNk5hZy9ZNExybEVBRXdBZkk3eGtJTVpyRVVVbWcvdHNyZFQ5THl4eFgySHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjY3NzM5OTgxCWZpbGU6Rk1heC5hcHAudGFyLmd6ClB4eHNSaC9MVm9GWWxLMGJxT2lNLzhROWdUQnF4b2tXZWt0MnhvWUxzaFoxUkxzZm5ORzdBY21zWmFWSUp3Umc1SlM1ZkhJc3RyUEVrWUxpZjI4MUJBPT0K",
+      "url": "https://github.com/mayzui/fmax/releases/download/v17.0.0/FMax.app.tar.gz"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQmVKS2FRcHk5T1doWmttekRZdTVRNlYvK085SmVoOHVrYjhMeVBHcGUxZTAraDJyWHBjNk5hZy9ZNExybEVBRXdBZkk3eGtJTVpyRVVVbWcvdHNyZFQ5THl4eFgySHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjY3NzM5OTgxCWZpbGU6Rk1heC5hcHAudGFyLmd6ClB4eHNSaC9MVm9GWWxLMGJxT2lNLzhROWdUQnF4b2tXZWt0MnhvWUxzaFoxUkxzZm5ORzdBY21zWmFWSUp3Umc1SlM1ZkhJc3RyUEVrWUxpZjI4MUJBPT0K",
+      "url": "https://github.com/mayzui/fmax/releases/download/v17.0.0/FMax.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQmVKS2FRcHk5T1doWmttekRZdTVRNlYvK085SmVoOHVrYjhMeVBHcGUxZTAraDJyWHBjNk5hZy9ZNExybEVBRXdBZkk3eGtJTVpyRVVVbWcvdHNyZFQ5THl4eFgySHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjY3NzM5OTgxCWZpbGU6Rk1heC5hcHAudGFyLmd6ClB4eHNSaC9MVm9GWWxLMGJxT2lNLzhROWdUQnF4b2tXZWt0MnhvWUxzaFoxUkxzZm5ORzdBY21zWmFWSUp3Umc1SlM1ZkhJc3RyUEVrWUxpZjI4MUJBPT0K",
+      "url": "https://github.com/mayzui/fmax/releases/download/v17.0.0/FMax.app.tar.gz"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQmVKS2FRcHk5T2MrNUp6QVBVOFEvQjNmdUJ5TUp3YkV5d0w4TzhleVpad0pBb1FLTldTQjdKZU1oMkRObGEwRXUzRlo1WWFudThmbXRqQml3VGpGbk1IRXFTZ21wTndnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjY3NzQwMDEwCWZpbGU6Zi1tYXhfMTcuMC4wX2FtZDY0LkFwcEltYWdlLnRhci5negpUY3o1ci9WblZSRjZkMGR4bjBReUc0R2lsYU9iU3lzS01vZ2hxazE5MWVmeUNEc0F5NldMS3RsQVcxKzkzNmcrRmNUNnVsNHhnL2hnUGNndkZJOXlCdz09Cg==",
+      "url": "https://github.com/mayzui/fmax/releases/download/v17.0.0/f-max_17.0.0_amd64.AppImage.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQmVKS2FRcHk5T1dyZlhVWlZndXJac3dMVWdtUXh2eVNXaWdMemw2S0llQ1grUjRvR3ZrYSs3YmZzbkh5MTd1UDEvR205WlJGaXAzTVlSZE11UGY4T1NoOEk0S3BXT3dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjY3NzQwMTEzCWZpbGU6Rk1heF8xNy4wLjBfeDY0X2VuLVVTLm1zaS56aXAKUGFNY1czR0xQVjhMYXBYUERsL2tjR1pKK2JqWG5DRzc4ZllxTER2NktObnk5aUNJYmV2YTBsKzFZK1FQd284THJmMnFWc2EvWE43ZXdRRWlnTkI2Q3c9PQo=",
+      "url": "https://github.com/mayzui/fmax/releases/download/v17.0.0/FMax_17.0.0_x64_en-US.msi.zip"
+    }
+  }
+}
