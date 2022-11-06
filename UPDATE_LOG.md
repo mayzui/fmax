@@ -29,7 +29,7 @@ test
 - feat: 读懂代码
 - fix: bug
 
-## v5.0.0
+## v6.0.0
 
 - feat: 读懂代码
 - fix: bug
