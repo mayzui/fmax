@@ -28,3 +28,8 @@ test
 
 - feat: 读懂代码
 - fix: bug
+
+## v1.0.0
+
+- feat: 读懂代码
+- fix: bug
