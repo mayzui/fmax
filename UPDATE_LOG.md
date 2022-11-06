@@ -22,3 +22,9 @@ test
 
 - feat: 读懂代码
 - fix: bug
+
+
+## v0.0.8
+
+- feat: 读懂代码
+- fix: bug
