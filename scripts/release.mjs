@@ -5,8 +5,10 @@ import { execSync } from 'child_process';
 import fs from 'fs';
 
 import updatelog from './updatelog.mjs';
+import {exit} from "@tauri-apps/api/process";
 
 const require = createRequire(import.meta.url);
+
 
 async function release() {
     const flag = process.argv[2] ?? 'patch';

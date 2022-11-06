@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "FMax",
-    "version": "0.0.3"
+    "version": "../package.json"
   },
   "tauri": {
     "allowlist": {
@@ -43,7 +43,7 @@
       "longDescription": "长长的描述",
       "resources": ["./images"],
       "shortDescription": "剪短的描述一下问题",
-      "targets": "msi",
+      "targets": "all",
       "windows": {
         "webviewInstallMode": {
           "type": "embedBootstrapper"
@@ -58,10 +58,11 @@
     },
     "updater": {
       "active": true,
+      "dialog": true,
       "endpoints": [
+        "https://github.com/mayzui/fmax/{{target}}/{{current_version}}",
         "https://github.com/mayzui/fmax/blob/main/fmax.update.json"
       ],
-      "dialog": true,
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDM5QkQ5QzQyOUE5Mjc4MDEKUldRQmVKS2FRcHk5T2ZseVExOXRFckU3NmFnbzNoQWpjdElSbjFVdURyTmVmbnNmMlNMeDRDY0kK"
 
     },
@@ -71,14 +72,14 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "fmax",
+        "title": "FMax",
         "width": 800,
         "visible": false,
         "center": true
       },
        {
          "label": "beforeMain",
-         "title": "开屏界面配置title",
+         "title": "openScreen",
          "fullscreen": false,
          "decorations": false,
          "url": "splashscreen.html",
